@@ -8,3 +8,5 @@ Forked from [unappendixed/omnivore-raindrop-sync](https://github.com/unappendixe
 3. Sign up on render.com and select "New > Web Service" in the top of the tool. Select "Build and deploy from a Git repository", and then scroll down to "Public Git repository" and enter the URL to this directory. Give it a name, ignore the settings until you can pick "Free" and then keep scrolling to *Environment Variables*. Create two variables: "RAINDROP_TOKEN", set to the value you copied in #1, and "OMNIVORE_USERID", set to the value you copied in #2. 
 5. Hit create, and then it should take you to the webservice page. It should auto-deploy which might take a second. At the top, there will be a URL you can copy like "https://YOUR-APP-NAME.onrender.com", copy it.
 6. Go to https://omnivore.app/settings/webhooks and add a webhook pointing to the URL you just copied.
+
+After this set up, when you add a link to Omnivore, it should also automatically populate in your "Unsorted" folder in Raindrop!
