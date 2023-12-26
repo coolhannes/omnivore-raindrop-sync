@@ -2,7 +2,7 @@ FROM golang:1.20.7-alpine
 
 WORKDIR /usr/src/omnivore-raindrop-sync
 
-COPY go.mod go.sum ./
+COPY go.mod ./
 
 RUN go mod download && go mod verify
 
